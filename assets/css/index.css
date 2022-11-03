@@ -67,3 +67,13 @@ footer {
 #copyrights {
     margin: auto 20px auto auto;
 }
+
+/* Home Page */
+
+#hero-image {
+    background-image: url(../images/workshop.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
