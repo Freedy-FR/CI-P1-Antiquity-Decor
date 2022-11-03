@@ -64,8 +64,13 @@ footer {
     margin: auto auto auto 20px;
 }
 
+#social-icons a {
+    color: var(--white-color);
+}
+
 #copyrights {
     margin: auto 20px auto auto;
+    color: var(--white-color);
 }
 
 /* Home Page */
