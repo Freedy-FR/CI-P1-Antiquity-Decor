@@ -59,3 +59,11 @@ footer {
     width: 100%;
     flex-shrink: 0;
 }
+
+#social-icons {
+    margin: auto auto auto 20px;
+}
+
+#copyrights {
+    margin: auto 20px auto auto;
+}
