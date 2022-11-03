@@ -33,4 +33,9 @@ body {
 #nav-bar ul {
     display: flex;
     margin: auto 20px auto auto;
+    list-style: none;
+}
+
+#nav-bar li {
+    margin-left: 10px;
 }
