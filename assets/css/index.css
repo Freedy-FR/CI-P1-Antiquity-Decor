@@ -4,14 +4,33 @@
 
 :root {
     --blue-color: #82c2ec;
+    --white-color: #ffffff;
 }
 
 body {
     height: 100%;
     width: 100%;
     margin: 0;
+    padding: 0;
 }
 
+/* Navigation */
 #nav-bar {
     background-color: var(--blue-color);
+    display: flex;
+    line-height: 50px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+#logo {
+    margin: auto auto auto 20px;
+}
+
+#nav-bar ul {
+    display: flex;
+    margin: auto 20px auto auto;
 }
