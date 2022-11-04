@@ -107,16 +107,23 @@ main div {
 
 }
 
-#store-text p {
+#store-text {
     margin: auto 50px auto 50px;
 }
 
-#product-image img {
+#product-image {
     height: 300px;
     width: 300px;
     margin: auto 50px auto auto;
     border: 5px double var(--blue-color);
-    border-radius: 15%;
+    border-radius: 20px;
+
+}
+
+#product-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
 }
 
 #product-text p {
