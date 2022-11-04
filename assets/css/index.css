@@ -82,3 +82,48 @@ footer {
     height: 400px;
     width: 100%;
 }
+
+/* Main content */
+header h2 {
+    text-align: center;
+}
+
+main div {
+    display: flex;
+}
+
+#store-image img {
+    height: 300px;
+    width: 300px;
+    margin: auto auto auto 50px;
+    border: 5px double var(--blue-color);
+    border-radius: 15%;
+}
+
+#store-text p {
+    margin: auto 50px auto 50px;
+}
+
+#product-image img {
+    height: 300px;
+    width: 300px;
+    margin: auto 50px auto auto;
+    border: 5px double var(--blue-color);
+    border-radius: 15%;
+}
+
+#product-text p {
+    margin: auto auto auto 50px;
+}
+
+#service-image img {
+    height: 300px;
+    width: 300px;
+    margin: auto auto auto 50px;
+    border: 5px double var(--blue-color);
+    border-radius: 15%;
+}
+
+#service-text p {
+    margin: auto 50px auto auto;
+}
