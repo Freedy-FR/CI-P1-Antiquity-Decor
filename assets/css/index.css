@@ -92,12 +92,19 @@ main div {
     display: flex;
 }
 
-#store-image img {
+#store-image {
     height: 300px;
     width: 300px;
     margin: auto auto auto 50px;
     border: 5px double var(--blue-color);
-    border-radius: 15%;
+    border-radius: 20px;
+}
+
+#store-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+
 }
 
 #store-text p {
