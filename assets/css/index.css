@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Ubuntu:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -15,6 +17,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -36,6 +39,9 @@ body {
 
 #logo {
     margin: auto auto auto 20px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 2px;
+    font-size: 40px;
 }
 
 #nav-bar ul {
