@@ -130,7 +130,7 @@ main div {
     margin: auto auto auto 50px;
 }
 
-#service-image img {
+#service-image {
     height: 300px;
     width: 300px;
     margin: auto auto auto 50px;
@@ -138,6 +138,13 @@ main div {
     border-radius: 15%;
 }
 
-#service-text p {
+
+#service-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+}
+
+#service-text {
     margin: auto 50px auto auto;
 }
