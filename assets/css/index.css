@@ -108,7 +108,7 @@ main div {
 }
 
 #store-text {
-    margin: auto 50px auto 50px;
+    margin: auto 50px;
 }
 
 #product-image {
@@ -126,8 +126,9 @@ main div {
     border-radius: inherit;
 }
 
-#product-text p {
-    margin: auto auto auto 50px;
+#product-text {
+    margin: auto 50px;
+    ;
 }
 
 #service-image {
@@ -146,5 +147,6 @@ main div {
 }
 
 #service-text {
-    margin: auto 50px auto auto;
+    margin: auto 50px;
+    ;
 }
