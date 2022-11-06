@@ -30,6 +30,7 @@ body {
     background-color: var(--blue-color);
     display: flex;
     line-height: 50px;
+    height: 50px;
 }
 
 #nav-bar a {
@@ -70,6 +71,8 @@ body {
 
 footer {
     display: flex;
+    line-height: 50px;
+    height: 50px;
     background-color: var(--blue-color);
 }
 
@@ -86,6 +89,7 @@ footer {
 
 #social-icons i {
     margin-right: 20px;
+    font-size: 25px;
 }
 
 #social-icons a {
@@ -95,6 +99,11 @@ footer {
 #copyrights {
     margin: auto 20px auto auto;
     color: var(--white-color);
+}
+
+#copyrights p {
+    font-size: 20px;
+    margin: auto;
 }
 
 /* Home Page */
