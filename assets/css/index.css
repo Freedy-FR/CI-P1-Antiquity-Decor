@@ -81,6 +81,11 @@ footer {
 
 #social-icons {
     margin: auto auto auto 20px;
+
+}
+
+#social-icons i {
+    margin-right: 20px;
 }
 
 #social-icons a {
@@ -125,8 +130,8 @@ main div {
     width: 300px;
     min-width: 300px;
     margin: 5px auto 5px 50px;
-    /* border: 5px solid var(--white-color); */
-    border-radius: 20px;
+    border: 5px solid var(--white-color);
+    border-radius: 50%;
 
     /* box-shadow: 
     0px 8px 5px -5px RGBA(0,0,0,.6),
@@ -145,6 +150,8 @@ main div {
 
 #store-text {
     margin: auto 50px;
+    display: block;
+    text-align: center;
 
 }
 
@@ -153,8 +160,8 @@ main div {
     width: 300px;
     min-width: 300px;
     margin: 5px 50px 5px auto;
-    /* border: 5px double var(--blue-color); */
-    border-radius: 20px;
+    border: 5px solid var(--white-color);
+    border-radius: 50%;
 
 }
 
@@ -167,7 +174,8 @@ main div {
 
 #product-text {
     margin: auto 50px;
-    ;
+    display: block;
+    text-align: center;
 }
 
 #service-image {
@@ -175,8 +183,8 @@ main div {
     width: 300px;
     min-width: 300px;
     margin: 5px auto 5px 50px;
-    /* border: 5px double var(--blue-color); */
-    border-radius: 20px;
+    border: 5px solid var(--white-color);
+    border-radius: 50%;
 }
 
 
@@ -189,7 +197,8 @@ main div {
 
 #service-text {
     margin: auto 50px;
-    ;
+    display: block;
+    text-align: center;
 }
 
 /* Media Queries */
