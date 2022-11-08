@@ -228,6 +228,39 @@ main div {
     flex-direction: row;
 }
 
+.about-left {
+    width: 33%;
+}
+
+.about-middle {
+    width: 33%;
+}
+
+.about-right {
+    width: 33%;
+}
+
+#left-image {
+    height: 33%;
+    width: 100%;
+}
+
+#middle-image {
+    height: 33%;
+    width: 100%;
+}
+
+#right-image {
+    height: 33%;
+    width: 100%;
+}
+
+.about-text {
+    display: block;
+    text-align: center;
+}
+
+
 
 
 /* Media Queries */
