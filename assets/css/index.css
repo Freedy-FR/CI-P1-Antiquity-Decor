@@ -294,8 +294,8 @@ main div {
     justify-items: center;
     /* align-items: center; */
 
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 15% 15% 15% 15% 300px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto 400px;
 
     grid-template-areas:
         "grid-item-1 grid-item-3 grid-item-4"
@@ -314,6 +314,8 @@ main div {
 .grid-div {
     width: auto;
     height: auto;
+    overflow: hidden;
+
 }
 
 .grid-item-1 {
@@ -350,7 +352,8 @@ main div {
 
 .grid-item-9 {
     grid-area: grid-item-9;
-    margin-top: 50px;
+    height: 400px;
+    margin-top: 20px;
 }
 
 .workshop-video {
