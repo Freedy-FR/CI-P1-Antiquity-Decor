@@ -23,6 +23,7 @@ body {
 
 .content {
     flex: 1 0 auto;
+    min-height: 100%;
 }
 
 /* Navigation */
@@ -361,6 +362,26 @@ main div {
     height: 100%;
     aspect-ratio: 16 / 9;
 }
+
+
+/* faq page */
+
+.faq-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 50px;
+    width: 90%;
+    justify-content: center;
+}
+
+.faq-div {
+    background-color: var(--blue-color);
+    min-width: 30%;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+
 
 
 
