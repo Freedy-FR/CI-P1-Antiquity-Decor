@@ -391,7 +391,7 @@ main div {
     margin: 100px auto;
     overflow: hidden;
     border-radius: 5px;
-    box-shadow: 1px 1px 2px #bbbbbb;
+    box-shadow: 3px 3px 4px black;
 }
 
 .faq-div>details {
@@ -404,27 +404,32 @@ main div {
     cursor: pointer;
     text-align: center;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
+    color: var(--white-color);
+    padding: 5px;
+    height: 30px;
+
 }
 
 .faq-div>details p {
     text-align: center;
     padding: 20px;
+    color: var(--white-color);
 }
 
 .faq-left {
     width: 34%;
-    height: auto;
+
 }
 
 .faq-middle {
     width: 34%;
-    height: auto;
+
 }
 
 .faq-right {
     width: 34%;
-    height: auto;
+
 }
 
 
