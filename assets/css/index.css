@@ -5,7 +5,9 @@
 }
 
 :root {
-    --blue-color: #82c2ec;
+    /* #4267B2 */
+    /* --blue-color: #82c2ec; */
+    --blue-color: #1778F2;
     --white-color: #ffffff;
     --faded-grey: rgba(119, 119, 119, 0.7);
 }
@@ -371,6 +373,14 @@ main div {
 
     display: flex;
     flex-direction: row;
+}
+
+#hero-image-faq {
+    background-image: url(../images/faq-questions-14.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
 }
 
 .faq-div {
