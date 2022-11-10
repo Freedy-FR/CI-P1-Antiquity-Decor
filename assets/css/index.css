@@ -7,7 +7,8 @@
 :root {
     /* #4267B2 */
     /* --blue-color: #82c2ec; */
-    --blue-color: #1778F2;
+    /* --blue-color: #1778F2; */
+    --blue-color: #0A56B2;
     --white-color: #ffffff;
     --faded-grey: rgba(119, 119, 119, 0.7);
 }
