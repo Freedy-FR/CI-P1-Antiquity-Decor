@@ -464,11 +464,13 @@ main div {
 .sidebyside {
     display: flex;
     width: 99.8%;
+    justify-content: space-around;
+    margin: 20px 0 20px 0;
 
 }
 
 .contact-form {
-    width: 50%;
+    width: 45%;
     height: 80%;
 }
 
@@ -492,7 +494,7 @@ textarea {
 
 
 .contact-map {
-    width: 50%;
+    width: 45%;
     height: 80%;
 
 }
@@ -505,7 +507,7 @@ textarea {
 
 
 .mapouter {
-    position: relative;
+    /* position: relative; */
     text-align: right;
     height: 100%;
     width: 100%;
@@ -521,7 +523,7 @@ textarea {
 
 .contact-info {
     display: flex;
-    width: 100%;
+    width: 95%;
     height: 200px;
     margin: auto;
 }
