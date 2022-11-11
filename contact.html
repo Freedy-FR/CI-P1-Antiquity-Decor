@@ -41,37 +41,48 @@
 
         <main>
 
-            <section>
+            <section class="contact-form">
                 <fieldset>
                     <legend>How can we help you?</legend>
 
                     <form method="post" action="https://formdump.codeinstitute.net/">
 
-                        <label for="full_name">Full Name:</label>
-                        <input id="full_name" type="name" name="full_name">
+                        <div>
+                            <label for="full_name">Full Name:</label>
+                            <input id="full_name" type="name" name="full_name">
+                        </div>
 
-                        <label for="email">E-mail:</label>
-                        <input id="email" type="email" name="email">
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input id="email" type="email" name="email">
+                        </div>
+                        <div>
+                            <label for="phone">Phone:</label>
+                            <input id="phone" type="tel" name="phone">
+                        </div>
+                        <div>
+                            <label for="reason">Reason of contact:</label>
+                            <select id="reason" name="reason">
+                                <option value=""></option>
+                                <option value="product">Product Information</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="business">Business Inquiries </option>
+                                <option value="general">General Question</option>
+                            </select>
+                        </div>
 
-                        <label for="phone">E-mail:</label>
-                        <input id="phone" type="tel" name="phone">
-
-                        <label for="reason">Reason of contact:</label>
-                        <select id="reason" name="reason">
-                            <option value=""></option>
-                            <option value="product">Product Information</option>
-                            <option value="feedback">Feedback</option>
-                            <option value="business">Business Inquiries </option>
-                            <option value="general">General Question</option>
-                        </select>
-
-                        <label for="message">Message:</label>
-                        <textarea name="message" id="message" cols="30" rows="10">Please type your message here.
+                        <div class="text-area">
+                            <label for="message">Message:</label>
+                            <textarea name="message" id="message" cols="30" rows="10">Please type your message here.
                         </textarea>
+                        </div>
 
-                        <button type="reset" value="reset"> Clear Form</button>
-
-                        <button type="submit" value="submit">Submit</button>
+                        <div>
+                            <button type="reset" value="reset"> Clear Form</button>
+                        </div>
+                        <div>
+                            <button type="submit" value="submit">Submit</button>
+                        </div>
 
 
                     </form>
