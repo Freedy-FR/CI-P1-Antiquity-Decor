@@ -486,6 +486,10 @@ form div {
     flex-direction: column;
 }
 
+textarea {
+    color: black;
+}
+
 
 .contact-map {
     width: 50%;
