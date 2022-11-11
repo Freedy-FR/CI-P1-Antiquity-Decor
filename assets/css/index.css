@@ -82,7 +82,7 @@ body {
 }
 
 .active {
-    border-bottom: 2px double var(--white-color);
+    border-bottom: 2px solid var(--white-color);
 }
 
 /* Footer */
