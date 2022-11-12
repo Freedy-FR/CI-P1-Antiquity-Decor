@@ -474,6 +474,20 @@ main div {
     height: 80%;
 }
 
+form label {
+    width: 10%;
+}
+
+form input {
+    width: 80%;
+}
+
+.reason {
+    width: 20%;
+}
+
+
+
 form div {
     padding: 20px;
 }
@@ -562,9 +576,9 @@ textarea {
     text-align: center;
 }
 
-/* .contact-phone table {
-    border: 2px solid black;
-} */
+.contact-phone table {
+    width: 100%;
+}
 
 .contact-phone td,
 th {
