@@ -53,12 +53,14 @@ body {
 
 #nav-bar a:hover {
     font-size: 110%;
+    transition: 0.5s;
 }
 
 #nav-bar ul li a:hover {
     background-color: var(--white-color);
     color: var(--blue-color);
     border-radius: 2px;
+    transition: 0.5s;
 }
 
 
@@ -124,6 +126,7 @@ footer {
 
 #social-icons i:hover {
     font-size: 30px;
+    transition: 0.5s;
 }
 
 #social-icons a {
