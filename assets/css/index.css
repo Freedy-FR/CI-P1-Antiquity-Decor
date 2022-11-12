@@ -503,8 +503,13 @@ main div {
     height: 80%;
 }
 
+.contact-form-title {
+    text-align: center;
+}
+
 form label {
     width: 10%;
+    font-weight: bold;
 }
 
 form input {
