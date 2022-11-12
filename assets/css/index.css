@@ -211,6 +211,7 @@ main div {
     width: 100%;
     border-radius: inherit;
     overflow: hidden;
+    object-fit: cover;
 }
 
 .home-text-container {
@@ -662,15 +663,13 @@ th {
     /* home page */
 
 
-    .section-container {
+    .home-section-container {
         /* flex-direction: column; */
         margin: 50px 5px;
         width: 98%;
     }
 
-    #store-image,
-    #product-image,
-    #service-image {
+    .home-image-container {
         margin: auto 20px auto 20px;
         width: 30%;
         height: 30%;
@@ -679,11 +678,9 @@ th {
         align-items: center;
     }
 
-    #store-image img,
-    #product-image img,
-    #service-image img {
+    /* .home-image-container img {
         object-fit: cover;
-    }
+    } */
 
 
 
@@ -703,7 +700,7 @@ th {
 
     /* Home Page */
 
-    .section-container {
+    .home-section-container {
         flex-direction: column;
         margin: 50px auto;
     }
@@ -712,9 +709,7 @@ th {
         flex-direction: column-reverse;
     }
 
-    #store-image,
-    #product-image,
-    #service-image {
+    .home-image-container {
         margin: 10px auto;
         width: 80vw;
         height: 80vw;
