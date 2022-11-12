@@ -14,8 +14,8 @@
 }
 
 body {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100%;
     margin: 0;
@@ -35,7 +35,7 @@ body {
     box-shadow: 3px 3px 4px black;
 }
 
-/* Navigation */
+/* nav abr */
 #nav-bar {
     background-color: var(--blue-color);
     display: flex;
@@ -671,22 +671,13 @@ th {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* Media Queries */
 
 /* Media for tablets screens */
+
 @media (max-width:900px) {
 
-    /* Menu bar */
+    /* nav bar */
     .check-button {
         display: flex;
         margin: auto 20px auto auto;
@@ -708,12 +699,45 @@ th {
     #check:checked~ul {
         left: 0;
     }
+
+    /* home page */
+
+
+    .section-container {
+        /* flex-direction: column; */
+        margin: 50px auto;
+    }
+
+    #store-image,
+    #product-image,
+    #service-image {
+        margin: 10px 20px 10px 20px;
+        width: 300px;
+        height: auto;
+        min-width: 300px;
+    }
+
+    #store-image img,
+    #product-image img,
+    #service-image img {
+        object-fit: cover;
+    }
+
+
+
+
 }
 
 /* Media for mobile phone screens */
 @media (max-width:570px) {
 
-    /* Main content - Home Page */
+    /* nav bar */
+
+    .check-button {
+        margin: auto 5px auto auto;
+    }
+
+    /* Home Page */
 
     .section-container {
         flex-direction: column;
@@ -724,14 +748,10 @@ th {
         flex-direction: column-reverse;
     }
 
-
-
-
-
     #store-image,
     #product-image,
     #service-image {
-        margin: 20px auto;
+        margin: 10px auto;
         width: 80vw;
         height: auto;
         min-width: 200px;
