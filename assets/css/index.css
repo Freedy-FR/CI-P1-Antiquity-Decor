@@ -154,7 +154,12 @@ header {
     margin-top: 50px;
 }
 
-/* Home Page */
+/* home Page */
+
+/* box-shadow: 
+    0px 8px 5px -5px RGBA(0,0,0,.6),
+    inset 3px 3px 5px 0px RGBA(0,0,0,.1), 
+    inset -3px -3px 5px 0px RGBA(255,255,255,.4); */
 
 #hero-image {
     background-image: url(../images/workshop.png);
@@ -173,7 +178,7 @@ main div {
     display: flex;
 }
 
-.section-container {
+.home-section-container {
     width: 90%;
     font-size: 20px;
     background-color: var(--blue-color);
@@ -182,6 +187,33 @@ main div {
     color: var(--white-color);
 
 }
+
+.home-left {
+    margin: 5px auto 5px 50px;
+    overflow: hidden;
+}
+
+.home-right {
+    margin: 5px 50px 5px auto;
+    overflow: hidden;
+}
+
+.home-image-container {
+    height: 300px;
+    width: 300px;
+    min-width: 300px;
+    border: 5px solid var(--white-color);
+    border-radius: 50%;
+}
+
+.home-image-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    overflow: hidden;
+}
+
+
 
 #store-image {
 
@@ -192,10 +224,7 @@ main div {
     border: 5px solid var(--white-color);
     border-radius: 50%;
 
-    /* box-shadow: 
-    0px 8px 5px -5px RGBA(0,0,0,.6),
-    inset 3px 3px 5px 0px RGBA(0,0,0,.1), 
-    inset -3px -3px 5px 0px RGBA(255,255,255,.4); */
+
 
 }
 
