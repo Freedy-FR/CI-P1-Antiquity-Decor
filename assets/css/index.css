@@ -143,6 +143,17 @@ footer {
     line-height: 20px;
 }
 
+/* General */
+
+h2 {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+header {
+    margin-top: 50px;
+}
+
 /* Home Page */
 
 #hero-image {
@@ -315,7 +326,6 @@ main div {
     padding: 20px;
     height: 50%;
     overflow: hidden;
-    /* margin-bottom: -300px; */
 }
 
 .about-text p {
@@ -499,13 +509,13 @@ form label {
 
 form input {
     width: 80%;
+    border-radius: 5px;
 }
 
 .reason {
     width: 20%;
+    border-radius: 5px;
 }
-
-
 
 form div {
     padding: 20px;
@@ -516,6 +526,7 @@ form div {
     height: 700px;
     display: inline-block;
     border-radius: 5px;
+
 }
 
 .text-area {
@@ -523,7 +534,7 @@ form div {
 }
 
 textarea {
-    color: black;
+    border-radius: 5px;
 }
 
 
