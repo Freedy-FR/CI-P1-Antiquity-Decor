@@ -368,6 +368,7 @@ main div {
     width: auto;
     height: auto;
     overflow: hidden;
+    border-radius: 5px;
 
 }
 
