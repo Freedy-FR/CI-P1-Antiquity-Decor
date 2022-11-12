@@ -683,6 +683,7 @@ th {
 
 /* Media Queries */
 
+/* Media for tablets screens */
 @media (max-width:900px) {
 
     /* Menu bar */
@@ -707,6 +708,10 @@ th {
     #check:checked~ul {
         left: 0;
     }
+}
+
+/* Media for mobile phone screens */
+@media (max-width:570px) {
 
     /* Main content - Home Page */
 
