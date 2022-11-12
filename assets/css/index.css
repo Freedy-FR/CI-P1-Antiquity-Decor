@@ -51,6 +51,18 @@ body {
 
 }
 
+#nav-bar a:hover {
+    font-size: 110%;
+}
+
+#nav-bar ul li a:hover {
+    background-color: var(--white-color);
+    color: var(--blue-color);
+    border-radius: 2px;
+}
+
+
+
 #logo {
     margin: auto auto auto 20px;
     font-family: 'Caveat', cursive;
@@ -102,13 +114,16 @@ footer {
 
 #social-icons {
     margin: auto auto auto 20px;
-
 }
 
 #social-icons i {
     margin-right: 20px;
     font-size: 25px;
     line-height: 50px;
+}
+
+#social-icons i:hover {
+    font-size: 30px;
 }
 
 #social-icons a {
