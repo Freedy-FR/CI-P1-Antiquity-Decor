@@ -631,7 +631,7 @@ textarea {
 
 .contact-address {
     display: block;
-    height: 100%;
+    height: 50%;
     margin: auto auto auto 20px;
 }
 
@@ -646,18 +646,22 @@ textarea {
 
 .contact-times {
     display: block;
+    width: 50%;
     height: 100%;
-    margin: auto 20px auto auto;
     text-align: center;
 }
 
 .contact-times table {
-    width: 100%;
+    width: 90%;
+    margin: auto 20px auto auto;
+
 }
+
 
 .contact-times td,
 th {
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 .contact-times td {
