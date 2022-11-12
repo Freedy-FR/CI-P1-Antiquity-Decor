@@ -44,8 +44,6 @@ body {
     overflow: hidden;
 }
 
-
-
 #nav-bar a {
     text-decoration: none;
     color: var(--white-color);
@@ -655,6 +653,11 @@ th {
         left: -100%;
         transition: all 1sec;
         text-align: center;
+        padding: 0;
+    }
+
+    #nav-bar li {
+        margin: auto;
     }
 
     #check:checked~ul {
