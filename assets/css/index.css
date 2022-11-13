@@ -153,12 +153,14 @@ header {
     margin-top: 50px;
 }
 
-/* home Page */
-
 /* box-shadow: 
     0px 8px 5px -5px RGBA(0,0,0,.6),
     inset 3px 3px 5px 0px RGBA(0,0,0,.1), 
     inset -3px -3px 5px 0px RGBA(255,255,255,.4); */
+
+/* home Page */
+
+
 
 #hero-image {
     background-image: url(../images/workshop.png);
@@ -236,14 +238,17 @@ main div {
 
 .about-left {
     width: 34%;
+    height: fit-content;
 }
 
 .about-middle {
     width: 34%;
+    height: fit-content;
 }
 
 .about-right {
     width: 34%;
+    height: fit-content;
 }
 
 
@@ -259,6 +264,7 @@ main div {
 
 #left-image {
     width: 100%;
+    height: 600px;
     object-fit: cover;
 
 
@@ -266,6 +272,7 @@ main div {
 
 #middle-image {
     width: 100%;
+    height: 600px;
     object-fit: cover;
 
 
@@ -274,6 +281,7 @@ main div {
 
 #right-image {
     width: 100%;
+    height: 600px;
     object-fit: cover;
 
 
@@ -289,6 +297,7 @@ main div {
 
 .about-text p {
     height: fit-content;
+    overflow: hidden;
 }
 
 
@@ -693,15 +702,11 @@ th {
         align-items: center;
     }
 
-    /* .home-image-container img {
-        object-fit: cover;
-    } */
+    /* about page */
 
-
-
-
-
-
+    .about-text {
+        padding: 5px;
+    }
 }
 
 /* Media for mobile phone screens */
@@ -748,5 +753,17 @@ th {
         width: 80vw;
         height: 80vw;
         min-width: 200px;
+    }
+
+    /* about page */
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-left,
+    .about-middle,
+    .about-right {
+        width: 100%;
     }
 }
