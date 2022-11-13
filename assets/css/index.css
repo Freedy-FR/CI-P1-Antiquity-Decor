@@ -414,7 +414,7 @@ main div {
 
 .faq-div>details {
     width: 100%;
-    /* height: 100%; */
+    height: fit-content;
 }
 
 .faq-div>details>summary {
@@ -425,7 +425,7 @@ main div {
     font-size: 20px;
     color: var(--white-color);
     padding: 5px;
-    height: 30px;
+    height: fit-content;
 
 }
 
@@ -721,8 +721,26 @@ th {
             "grid-item-5 grid-item-5"
             "grid-item-6 grid-item-6"
             "grid-item-7 grid-item-8"
-            "grid-item-9 grid-item-9"
+            "grid-item-9 grid-item-9";
 
+    }
+
+    /* faq */
+
+    .faq-div {
+        width: 95%;
+    }
+
+    .faq-left {
+        width: 33%;
+    }
+
+    .faq-middle {
+        width: 33%;
+    }
+
+    .faq-right {
+        width: 33%;
     }
 
 
@@ -803,5 +821,31 @@ th {
             "grid-item-7"
             "grid-item-8"
             "grid-item-9";
+    }
+
+    /* faq */
+
+    .faq-content {
+        flex-direction: column;
+    }
+
+    .faq-div {
+        width: 95%;
+        margin-bottom: 0;
+    }
+
+    .faq-left {
+        width: 100%;
+
+    }
+
+    .faq-middle {
+        width: 100%;
+
+    }
+
+    .faq-right {
+        width: 100%;
+
     }
 }
