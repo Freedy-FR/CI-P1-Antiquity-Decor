@@ -310,7 +310,6 @@ main div {
     gap: 5px 5px;
     margin: auto;
 
-
     justify-content: center;
     justify-items: center;
     /* align-items: center; */
@@ -707,6 +706,26 @@ th {
     .about-text {
         padding: 5px;
     }
+
+    /* gallery */
+
+    .grid-container {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto auto 400px;
+
+
+        grid-template-areas:
+            "grid-item-1 grid-item-2"
+            "grid-item-3 grid-item-3"
+            "grid-item-4 grid-item-4"
+            "grid-item-5 grid-item-5"
+            "grid-item-6 grid-item-6"
+            "grid-item-7 grid-item-8"
+            "grid-item-9 grid-item-9"
+
+    }
+
+
 }
 
 /* Media for mobile phone screens */
@@ -765,5 +784,24 @@ th {
     .about-middle,
     .about-right {
         width: 100%;
+    }
+
+    /* gallery */
+
+    .grid-container {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto 400px;
+
+
+        grid-template-areas:
+            "grid-item-1"
+            "grid-item-2"
+            "grid-item-3"
+            "grid-item-4"
+            "grid-item-5"
+            "grid-item-6"
+            "grid-item-7"
+            "grid-item-8"
+            "grid-item-9";
     }
 }
