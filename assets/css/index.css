@@ -458,7 +458,7 @@ main div {
     margin: auto;
 }
 
-.sidebyside {
+.contact-sidebyside {
     display: flex;
     width: 99.8%;
     justify-content: space-around;
@@ -473,7 +473,7 @@ main div {
 
 .contact-form fieldset {
     width: 100%;
-    height: 725px;
+    height: 750px;
     display: inline-block;
     border-radius: 5px;
 
@@ -484,27 +484,38 @@ main div {
 }
 
 form label {
-    width: 15%;
+    width: 30%;
     font-weight: bold;
 }
 
 form input {
-    width: 80%;
+    width: 70%;
     border-radius: 5px;
+}
+
+.contact-reason-container {
+    flex-direction: column;
+    width: 80%;
 }
 
 .reason {
-    width: 20%;
+    width: 100%;
     border-radius: 5px;
+    margin-top: 20px;
+}
+
+.reason select {
+    width: 70%;
 }
 
 form div {
-    padding: 20px;
+    padding: 10px;
 }
 
 
 .text-area {
     flex-direction: column;
+    margin-top: 20px;
 }
 
 textarea {
@@ -515,6 +526,7 @@ textarea {
     justify-content: center;
     width: 100%;
     height: auto;
+    margin: 20px 0;
 }
 
 .reset button {
@@ -532,6 +544,7 @@ textarea {
     justify-content: center;
     width: 100%;
     height: 100px;
+    margin: 20px 0;
 }
 
 .submit button {
@@ -543,6 +556,7 @@ textarea {
     border-radius: 5px;
     border: none;
     cursor: pointer;
+
 }
 
 
@@ -554,7 +568,7 @@ textarea {
 
 .contact-map fieldset {
     width: 100%;
-    height: 725px;
+    height: 750px;
     padding: 0;
     border-radius: 5px;
 }
@@ -743,6 +757,47 @@ th {
         width: 33%;
     }
 
+    /* contact */
+
+
+    .contact-sidebyside {
+        margin: 5px auto 5px auto;
+        /* justify-content: stretch; */
+    }
+
+    .contact-form {
+        width: 49%;
+    }
+
+    form div {
+        flex-direction: column;
+    }
+
+    form label {
+        width: 100%;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    .reset {
+        margin: 5px 0;
+    }
+
+    .submit {
+        margin: 5px 0;
+    }
+
+    .contact-map {
+        width: 49%;
+    }
+
+    .contact-info {
+        margin: auto 5px auto 5px;
+        padding: 0;
+        width: 99%;
+    }
 
 }
 
