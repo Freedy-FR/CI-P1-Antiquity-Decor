@@ -825,6 +825,13 @@ th {
 
     /* faq */
 
+    #hero-image-faq {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        margin-top: 40px;
+    }
+
     .faq-content {
         flex-direction: column;
     }
