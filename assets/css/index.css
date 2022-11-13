@@ -910,4 +910,25 @@ th {
         width: 100%;
 
     }
+
+    /* contact */
+
+    .contact-sidebyside {
+        flex-direction: column;
+    }
+
+    .contact-form {
+        width: 95%;
+        margin: auto auto 20px auto;
+    }
+
+    .contact-map {
+        width: 95%;
+        margin: auto auto 20px auto;
+    }
+
+    .contact-times {
+        width: 90%;
+        margin: auto auto 20px auto;
+    }
 }
