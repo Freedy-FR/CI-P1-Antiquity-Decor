@@ -636,10 +636,21 @@ th {
 
 @media (max-width:900px) {
 
+
     /* nav bar */
     .check-button {
         display: flex;
         margin: auto 20px auto auto;
+    }
+
+    #nav-bar {
+        position: fixed;
+        width: 100%;
+        box-shadow: 3px 3px 4px black;
+    }
+
+    h2 {
+        margin-top: 60px;
     }
 
     #nav-bar ul {
