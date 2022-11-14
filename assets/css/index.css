@@ -216,7 +216,7 @@ main div {
 }
 
 .home-text-container {
-    margin: auto 50px;
+    margin: auto auto;
     display: block;
     text-align: center;
 }
