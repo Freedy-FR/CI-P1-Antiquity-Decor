@@ -163,7 +163,7 @@ header {
 
 
 #hero-image {
-    background-image: url(../images/home-workshop.png);
+    background-image: url(../images/home-workshop.webp);
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -394,7 +394,7 @@ main div {
 }
 
 #hero-image-faq {
-    background-image: url(../images/faq-questions-14.jpg);
+    background-image: url(../images/faq-questions-14.webp);
     background-size: cover;
     background-position: center;
     height: 400px;
