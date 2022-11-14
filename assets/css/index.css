@@ -393,6 +393,11 @@ main div {
     flex-direction: row;
 }
 
+.faq-content a {
+    color: var(--white-color);
+    cursor: pointer;
+}
+
 #hero-image-faq {
     background-image: url(../images/faq-questions-14.webp);
     background-size: cover;
