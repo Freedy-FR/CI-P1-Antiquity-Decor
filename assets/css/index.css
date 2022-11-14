@@ -605,11 +605,7 @@ textarea {
 .contact-info-container {
     display: flex;
     width: 100%;
-
-    /* margin: 10px auto 10px auto; */
-
 }
-
 
 .contact-address {
     display: block;
@@ -652,9 +648,9 @@ th {
 
 
 
-/* Media Queries */
+/* media Queries */
 
-/* Media for tablets screens */
+/* media for tablets screens */
 
 @media (max-width:900px) {
 
@@ -927,8 +923,26 @@ th {
         margin: auto auto 20px auto;
     }
 
-    .contact-times {
-        width: 90%;
+    .contact-info {
+        height: fit-content;
+        margin: auto;
+    }
+
+    .contact-info-container {
+        flex-direction: column;
+        width: 95%;
+        height: fit-content;
+    }
+
+    .contact-address {
+        width: 100%;
         margin: auto auto 20px auto;
     }
+
+    .contact-times {
+        width: 100%;
+        margin: auto auto 20px auto;
+    }
+
+
 }
