@@ -176,9 +176,14 @@ header h2 {
     text-align: center;
 }
 
-main div {
+article div {
     display: flex;
 }
+
+form div {
+    display: flex;
+}
+
 
 /* home page section style */
 .home-section-container {
@@ -612,6 +617,10 @@ textarea {
     margin: auto;
 }
 
+.contact-info-container {
+    display: flex;
+}
+
 /* style information fieldset */
 .contact-info fieldset {
     width: 100%;
@@ -965,8 +974,9 @@ h1 {
 
     .contact-info-container {
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         height: fit-content;
+        margin: 0;
     }
 
     .contact-address {
@@ -976,7 +986,12 @@ h1 {
 
     .contact-times {
         width: 100%;
-        margin: auto auto 20px auto;
+        margin: auto;
+    }
+
+    .contact-times table {
+        margin: 0;
+        width: 100%;
     }
 
 }
