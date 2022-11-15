@@ -615,10 +615,10 @@ textarea {
 
 /* map style from google maps */
 .mapouter {
-    position: relative;
     text-align: right;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 
 }
 
@@ -1003,6 +1003,7 @@ h1 {
     }
 
     .contact-info {
+        width: 95%;
         height: fit-content;
         margin: auto;
     }
