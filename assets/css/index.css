@@ -625,6 +625,7 @@ textarea {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    border-radius: 5px;
 
 }
 
@@ -633,6 +634,7 @@ textarea {
     background: none !important;
     height: 100%;
     width: 100%;
+    border-radius: 5px;
 
 }
 
@@ -641,6 +643,7 @@ textarea {
     height: 100%;
     width: 100%;
     padding: 1px;
+    border-radius: 5px;
 }
 
 /* information container */
