@@ -561,7 +561,7 @@ textarea {
     justify-content: center;
     width: 100%;
     height: auto;
-    margin: 20px 0;
+    margin: 50px auto 25px auto;
 }
 
 .reset button {
@@ -577,9 +577,9 @@ textarea {
 /* submit button styling */
 .submit {
     justify-content: center;
-    width: 100%;
-    height: 100px;
-    margin: 20px 0;
+    width: 60%;
+    height: 20%;
+    margin: 25px auto;
 }
 
 .submit button {
@@ -854,11 +854,23 @@ h1 {
     }
 
     .reset {
-        margin: 5px 0;
+        width: 100%;
+        margin: 5px auto;
     }
 
     .submit {
-        margin: 5px 0;
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    .reset button {
+        width: 100%;
+        margin: auto;
+    }
+
+    .submit button {
+        width: 100%;
+        margin: auto;
     }
 
     .contact-map {
@@ -987,12 +999,12 @@ h1 {
     }
 
     .reset {
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
     .submit {
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
@@ -1037,5 +1049,4 @@ h1 {
     .about-text {
         padding: 0;
     }
-
 }
