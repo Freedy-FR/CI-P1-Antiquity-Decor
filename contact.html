@@ -92,12 +92,12 @@
                             <div class="contact-reason-container">
                                 <label class="reason" for="reason">Reason of contact:</label>
                                 <select id="reason" name="reason" required>
-                                    <option value=""></option>
+                                    <option value="" label="Please choose an option"></option>
+                                    <option value="general">General Question</option>
                                     <option value="product">Product Information</option>
                                     <option value="feedback">Feedback</option>
                                     <option value="business">Business Inquiries </option>
                                     <option value="complain">Complain</option>
-                                    <option value="general">General Question</option>
                                 </select>
                             </div>
                             <!-- message area container -->
@@ -119,15 +119,15 @@
                 </section>
 
                 <!-- map container -->
-                <section class="contact-map">
+                <section class="contact-map shadow">
                     <!-- map fieldset container -->
                     <fieldset class="shadow">
                         <!-- map iframe container -->
                         <div class="mapouter">
                             <div class="gmap_canvas">
-                                <iframe title="google maps location" width="100%" height="100%" id="gmap_canvas"
+                                <iframe title="google maps location" id="gmap_canvas"
                                     src="https://maps.google.com/maps?q=12a%20R105,%20Dublin&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                                    scrolling="no" marginheight="0" marginwidth="0">
                                 </iframe>
                             </div>
                         </div>

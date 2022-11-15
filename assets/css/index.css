@@ -298,15 +298,20 @@ form div {
 /* about page text style */
 .about-text {
     display: block;
-    text-align: center;
+    /* text-align: center; */
     padding: 20px;
     height: 50%;
     overflow: hidden;
 }
 
+.about-text>h2 {
+    text-align: center;
+}
+
 .about-text p {
     height: fit-content;
     overflow: hidden;
+    padding: 1.5rem;
 }
 
 
@@ -593,6 +598,10 @@ textarea {
 .contact-map {
     width: 45%;
     height: 80%;
+    min-height: 750px;
+    max-width: 45%;
+    overflow: hidden;
+    border-radius: 5px;
 
 }
 
@@ -606,10 +615,11 @@ textarea {
 
 /* map style from google maps */
 .mapouter {
-    /* position: relative; */
+    position: relative;
     text-align: right;
     height: 100%;
     width: 100%;
+
 }
 
 .gmap_canvas {
@@ -617,6 +627,14 @@ textarea {
     background: none !important;
     height: 100%;
     width: 100%;
+
+}
+
+#gmap_canvas {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 1px;
 }
 
 /* information container */
@@ -907,6 +925,11 @@ h1 {
         width: 100%;
     }
 
+    .about-text {
+        text-align: unset;
+        padding: 0.5rem;
+    }
+
     /* gallery */
     .grid-container {
         grid-template-columns: auto;
@@ -975,6 +998,7 @@ h1 {
 
     .contact-map {
         width: 95%;
+        min-width: 95%;
         margin: auto auto 20px auto;
     }
 
@@ -1003,6 +1027,14 @@ h1 {
     .contact-times table {
         margin: 0;
         width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+
+    /* about page */
+    .about-text {
+        padding: 0;
     }
 
 }
