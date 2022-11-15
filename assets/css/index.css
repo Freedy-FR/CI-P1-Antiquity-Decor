@@ -651,18 +651,40 @@ th {
     text-align: center;
 }
 
+
 /* 404 page */
 
 #page-not-found-image {
     background-image: url(../images/404-image.webp);
-    background-position: center;
+    background-position: top;
+    background-size: cover;
     background-repeat: no-repeat;
+    position: absolute;
     width: 100%;
     height: 100%;
-
+    z-index: -99;
 }
 
+.page-not-found-image-div {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 200px;
+    padding: 40px;
+    text-align: center;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    border-radius: 5px;
+}
 
+.page-not-found-image-div p,
+h1 {
+    margin: 20px;
+}
+
+#no-margin {
+    margin-top: 0;
+}
 
 /* media Queries */
 
