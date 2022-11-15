@@ -82,6 +82,7 @@ body {
 
 /* bars menu style button (tablets and mobile)*/
 .check-button {
+    content: "";
     font-size: 40px;
     color: var(--white-color);
     margin: auto 20px auto auto;
