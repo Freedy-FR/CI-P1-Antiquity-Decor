@@ -607,10 +607,10 @@ textarea {
     border-radius: 5px;
 }
 
-.contact-info-container {
+/* .contact-info-container {
     display: flex;
     width: 100%;
-}
+} */
 
 .contact-address {
     display: block;

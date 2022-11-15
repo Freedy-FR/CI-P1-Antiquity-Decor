@@ -22,56 +22,73 @@
 <body>
 
     <section class="content">
-        <nav id="nav-bar" class="shadow">
-            <!-- Main Logo -->
-            <h1 id="logo"><a href="index.html" aria-hidden="true">Antiquity Decor</a></h1>
+        <!-- navigation bar -->
+        <nav id="nav-bar">
+            <!-- main logo -->
+            <h1 id="logo">
+                <a href="index.html" aria-hidden="true">Antiquity Decor</a>
+            </h1>
+            <!-- navigation menu -->
 
-            <!-- Navigation Menu -->
-
+            <!-- input checkbox to call bar menu -->
             <input type="checkbox" id="check">
             <label aria-hidden="true" for="check" class="check-button">
                 <i aria-hidden="true" class="fa-solid fa-bars"></i>
             </label>
-
+            <!-- list menu for navigation -->
             <ul role="navigation" aria-label="Main">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="faq.html">F.A.Q.</a></li>
-                <li><a href="contact.html" class="active">Contact Us</a></li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="faq.html">F.A.Q.</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="active">Contact Us</a>
+                </li>
             </ul>
-
         </nav>
 
+        <!-- main header -->
         <header>
-            <div class="">
+            <div>
                 <h2>Contact Us</h2>
             </div>
         </header>
 
+        <!-- main content -->
         <main class="contact-main">
-
+            <!-- form and map container -->
             <div class="contact-sidebyside">
+                <!-- form container -->
                 <section class="contact-form">
+                    <!--  form fieldset container -->
                     <fieldset class="shadow">
                         <h2 class="contact-form-title">How can we help you?</h2>
-
                         <form method="post" action="https://formdump.codeinstitute.net/">
-
+                            <!-- full name container -->
                             <div>
                                 <label for="full_name">Full Name:</label>
                                 <input id="full_name" type="name" name="full_name" required>
                             </div>
-
+                            <!-- email container -->
                             <div>
                                 <label for="email">E-mail:</label>
                                 <input id="email" type="email" name="email"
                                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                             </div>
+                            <!-- phone container -->
                             <div>
                                 <label for="phone">Phone:</label>
                                 <input id="phone" type="tel" name="phone">
                             </div>
+                            <!-- reason container -->
                             <div class="contact-reason-container">
                                 <label class="reason" for="reason">Reason of contact:</label>
                                 <select id="reason" name="reason" required>
@@ -79,60 +96,62 @@
                                     <option value="product">Product Information</option>
                                     <option value="feedback">Feedback</option>
                                     <option value="business">Business Inquiries </option>
+                                    <option value="general">Complain</option>
                                     <option value="general">General Question</option>
                                 </select>
                             </div>
-
+                            <!-- message area container -->
                             <div class="text-area">
                                 <label for="message">Message:</label>
                                 <textarea name="message" id="message" cols="30" rows="10"
                                     placeholder="Please type your message here." required></textarea>
                             </div>
-
+                            <!-- reset button container -->
                             <div class="reset">
                                 <button class="shadow" type="reset" value="reset"> Clear Form</button>
                             </div>
+                            <!-- submit button container -->
                             <div class="submit">
                                 <button class="shadow" type="submit" value="submit">Submit</button>
                             </div>
-
-
                         </form>
                     </fieldset>
                 </section>
 
+                <!-- map container -->
                 <section class="contact-map">
+                    <!-- map fieldset container -->
                     <fieldset class="shadow">
+                        <!-- map iframe container -->
                         <div class="mapouter">
-                            <div class="gmap_canvas"><iframe title="google maps location" width="100%" height="100%"
-                                    id="gmap_canvas"
+                            <div class="gmap_canvas">
+                                <iframe title="google maps location" width="100%" height="100%" id="gmap_canvas"
                                     src="https://maps.google.com/maps?q=12a%20R105,%20Dublin&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                                </iframe>
                             </div>
                         </div>
                     </fieldset>
                 </section>
-
             </div>
 
+            <!-- contact info and times container -->
             <section class="contact-info">
                 <fieldset class="shadow">
+                    <!-- contact info and times sub container -->
                     <div class="contact-info-container">
+                        <!-- address and phone container -->
                         <div id="contact" class="contact-address">
                             <h3>Address and Contact Info</h3>
-
                             <p><span class="bold">Address:</span> 12a R105, Dublin, Ireland</p>
-
                             <p><span class="bold">E-Mail:</span> <a href="mailto: antiquity.decor@hotmail.com">
                                     antiquity.decor@hotmail.com</a></p>
-
-
                             <p><span class="bold">Phone:</span> 01-123-1234</p>
-
                         </div>
-
+                        <!-- contact times container -->
                         <div class="contact-times">
                             <h3>Opening Hours</h3>
+                            <!-- opening/closing times table -->
                             <table>
                                 <tr>
                                     <th>Days</th>
@@ -175,26 +194,18 @@
                                     <td>17:00</td>
                                 </tr>
                             </table>
-
                         </div>
                     </div>
                 </fieldset>
             </section>
-
-
-
-
-
-
-
         </main>
 
     </section>
 
+    <!-- footer -->
     <footer class="sticky-footer">
-
+        <!-- footer social icons -->
         <div id="social-icons">
-
             <a href="https://www.facebook.com/" rel="noopener" target="_blank"
                 aria-label="check our facebook page (opens in a new page)"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/antiquity.decor/" rel="noopener" target="_blank"
@@ -203,23 +214,17 @@
                 aria-label="check our youtube page (opens in a new page)"><i class="fab fa-youtube"></i></a>
             <a href="https://www.whatsapp.com/" rel="noopener" target="_blank"
                 aria-label="check our whatsapp page (opens in a new page)"><i class="fab fa-whatsapp"></i></a>
-
         </div>
-
+        <!-- footer copyrights -->
         <div id="copyrights">
-
-            <p>Copyright Antiquity Decor®</p>
-
+            <p>
+                Copyright Antiquity Decor®
+            </p>
         </div>
-
     </footer>
-
-
-
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/12401a2841.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
