@@ -80,6 +80,14 @@ body {
     font-size: 20px;
 }
 
+#nav-bar label {
+    color: var(--blue-color);
+}
+
+#nav-bar>label>i {
+    color: var(--white-color);
+}
+
 /* bars menu style button (tablets and mobile)*/
 .check-button {
     content: "";
