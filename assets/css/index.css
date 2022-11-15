@@ -221,6 +221,7 @@ form div {
     height: 300px;
     width: 300px;
     min-width: 300px;
+    min-height: 300px;
     border: 5px solid var(--white-color);
     border-radius: 50%;
 }
@@ -229,6 +230,7 @@ form div {
 .home-image-container img {
     height: 100%;
     width: 100%;
+    min-height: 300px;
     border-radius: inherit;
     overflow: hidden;
     object-fit: cover;
@@ -891,6 +893,7 @@ h1 {
         width: 80vw;
         height: 80vw;
         min-width: 200px;
+        min-height: 200px;
     }
 
     /* about page */
