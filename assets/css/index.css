@@ -561,7 +561,6 @@ textarea {
     width: 50%;
     height: 100%;
     font-size: large;
-    background-color: var();
     color: var(--blue-color);
     border-radius: 5px;
     border: none;
@@ -746,7 +745,7 @@ h1 {
         height: 100vh;
         top: 50px;
         left: -100%;
-        transition: all 1sec;
+        transition: all 1s;
         text-align: center;
         padding: 0;
     }
