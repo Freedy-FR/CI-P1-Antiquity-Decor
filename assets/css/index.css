@@ -452,6 +452,11 @@ form div {
     box-shadow: 3px 3px 4px black;
 }
 
+.faq-div>details>summary:hover {
+    font-size: 130%;
+    transition: all 1s;
+}
+
 /* style details element to fit height */
 .faq-div>details {
     width: 100%;
@@ -467,9 +472,9 @@ form div {
     font-size: 20px;
     color: var(--white-color);
     padding: 5px;
-    height: fit-content;
-
+    height: 60px;
 }
+
 
 /* style question paragraph */
 .faq-div>details p {
