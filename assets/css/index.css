@@ -4,15 +4,14 @@
     box-sizing: border-box;
 }
 
+/* main colors variables */
 :root {
-    /* #4267B2 */
-    /* --blue-color: #82c2ec; */
-    /* --blue-color: #1778F2; */
     --blue-color: #0A56B2;
     --white-color: #ffffff;
     --faded-grey: rgba(119, 119, 119, 0.7);
 }
 
+/* body style */
 body {
     display: flex;
     flex-direction: column;
@@ -21,21 +20,20 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
-
 }
 
+/* flex content to fill the page height */
 .content {
     flex: 1 0 auto;
     min-height: 100%;
 }
 
-/* Box shadows */
-
+/* box shadows */
 .shadow {
     box-shadow: 3px 3px 4px black;
 }
 
-/* nav abr */
+/* navigation bar */
 #nav-bar {
     background-color: var(--blue-color);
     display: flex;
@@ -47,9 +45,9 @@ body {
 #nav-bar a {
     text-decoration: none;
     color: var(--white-color);
-
 }
 
+/* navigation bar elements hover style */
 #nav-bar a:hover {
     font-size: 110%;
     transition: 0.5s;
@@ -62,8 +60,7 @@ body {
     transition: 0.5s;
 }
 
-
-
+/* navigation bar main logo */
 #logo {
     margin: auto auto auto 20px;
     font-family: 'Caveat', cursive;
@@ -71,6 +68,7 @@ body {
     font-size: 40px;
 }
 
+/* navigation bar menu style */
 #nav-bar ul {
     display: flex;
     margin: auto 20px auto auto;
@@ -82,6 +80,7 @@ body {
     font-size: 20px;
 }
 
+/* bars menu style button (tablets and mobile)*/
 .check-button {
     font-size: 40px;
     color: var(--white-color);
@@ -90,15 +89,17 @@ body {
     display: none;
 }
 
+/* check input button hidden from screen (all screens) */
 #check {
     display: none;
 }
 
+/* active status on the menu list  */
 .active {
     border-bottom: 2px solid var(--white-color);
 }
 
-/* Footer */
+/* Footer style */
 
 footer {
     display: flex;
@@ -107,12 +108,14 @@ footer {
 
 }
 
+/* makes footer sticky to the bottom of page */
 .sticky-footer {
     margin-top: 100px;
     width: 100%;
     flex-shrink: 0;
 }
 
+/* social media icons at footer */
 #social-icons {
     margin: auto auto auto 20px;
 }
@@ -123,15 +126,17 @@ footer {
     line-height: 50px;
 }
 
+#social-icons a {
+    color: var(--white-color);
+}
+
+/* social icons hover animation */
 #social-icons i:hover {
     font-size: 30px;
     transition: 0.5s;
 }
 
-#social-icons a {
-    color: var(--white-color);
-}
-
+/* copyright style at footer */
 #copyrights {
     margin: auto 20px auto auto;
     color: var(--white-color);
@@ -142,7 +147,7 @@ footer {
     line-height: 20px;
 }
 
-/* General */
+/* general styles */
 
 h2 {
     text-decoration: underline;
@@ -153,15 +158,12 @@ header {
     margin-top: 50px;
 }
 
-/* box-shadow: 
-    0px 8px 5px -5px RGBA(0,0,0,.6),
-    inset 3px 3px 5px 0px RGBA(0,0,0,.1), 
-    inset -3px -3px 5px 0px RGBA(255,255,255,.4); */
+/* bold class */
+.bold {
+    font-weight: 700;
+}
 
-/* home Page */
-
-
-
+/* home page */
 #hero-image {
     background-image: url(../images/home-workshop.webp);
     background-size: cover;
@@ -170,7 +172,6 @@ header {
     width: 100%;
 }
 
-/* Main content */
 header h2 {
     text-align: center;
 }
@@ -179,6 +180,7 @@ main div {
     display: flex;
 }
 
+/* home page section style */
 .home-section-container {
     width: 90%;
     font-size: 20px;
@@ -186,19 +188,21 @@ main div {
     margin: 50px auto;
     border-radius: 5px;
     color: var(--white-color);
-
 }
 
+/* home image container sticky to the left */
 .home-left {
-    margin: 5px auto 5px 50px;
+    margin: 10px auto;
     overflow: hidden;
 }
 
+/* home image container sticky to the right */
 .home-right {
-    margin: 5px 50px 5px auto;
+    margin: 10px auto;
     overflow: hidden;
 }
 
+/* home image container style */
 .home-image-container {
     height: 300px;
     width: 300px;
@@ -207,6 +211,7 @@ main div {
     border-radius: 50%;
 }
 
+/* home image style */
 .home-image-container img {
     height: 100%;
     width: 100%;
@@ -215,7 +220,10 @@ main div {
     object-fit: cover;
 }
 
+/* home page text container */
 .home-text-container {
+    width: 60%;
+    padding: 10px;
     margin: auto auto;
     display: block;
     text-align: center;
@@ -227,15 +235,9 @@ main div {
     flex-grow: 1;
 
     display: flex;
-    flex-direction: row;
-
 }
 
-/* .about-title {
-    width: 50%;
-    margin: auto;
-} */
-
+/* split about-content in 3 parts */
 .about-left {
     width: 34%;
     height: fit-content;
@@ -251,42 +253,33 @@ main div {
     height: fit-content;
 }
 
-
+/*container limiting the height of the image */
 .about-image-container {
     width: 100%;
     max-height: 50%;
-
-
     overflow: hidden;
-
 }
 
-
+/* makes images cover the full width of the container */
 #left-image {
     width: 100%;
     height: 600px;
     object-fit: cover;
-
-
 }
 
 #middle-image {
     width: 100%;
     height: 600px;
     object-fit: cover;
-
-
-
 }
 
 #right-image {
     width: 100%;
     height: 600px;
     object-fit: cover;
-
-
 }
 
+/* about page text style */
 .about-text {
     display: block;
     text-align: center;
@@ -304,16 +297,18 @@ main div {
 /* gallery */
 
 .grid-container {
+    /* grid container including gap */
     display: grid;
     width: 95%;
     height: 100%;
     gap: 10px 10px;
     margin: auto;
 
+    /* center items and containers at the grid */
     justify-content: center;
     justify-items: center;
-    /* align-items: center; */
 
+    /* grid layout */
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto 400px;
 
@@ -325,6 +320,7 @@ main div {
         "grid-item-9 grid-item-9 grid-item-9";
 }
 
+/* makes images cover the full width of the containers */
 .gallery-img {
     height: 100%;
     width: 100%;
@@ -336,9 +332,9 @@ main div {
     height: auto;
     overflow: hidden;
     border-radius: 5px;
-
 }
 
+/* grid items areas */
 .grid-item-1 {
     grid-area: grid-item-1;
 }
@@ -377,6 +373,7 @@ main div {
     margin-top: 20px;
 }
 
+/* gallery video container */
 .workshop-video {
     width: 100%;
     height: 100%;
@@ -390,14 +387,28 @@ main div {
     flex-grow: 1;
 
     display: flex;
-    flex-direction: row;
 }
 
+/* style sections to take 1/3 of page */
+.faq-left {
+    width: 34%;
+}
+
+.faq-middle {
+    width: 34%;
+}
+
+.faq-right {
+    width: 34%;
+}
+
+/* style anchors and add pointer to cursor */
 .faq-content a {
     color: var(--white-color);
     cursor: pointer;
 }
 
+/* hero image styling */
 #hero-image-faq {
     background-image: url(../images/faq-questions-14.webp);
     background-size: cover;
@@ -406,6 +417,7 @@ main div {
     width: 100%;
 }
 
+/* style faq containers */
 .faq-div {
     background-color: var(--blue-color);
     width: 80%;
@@ -417,11 +429,13 @@ main div {
     box-shadow: 3px 3px 4px black;
 }
 
+/* style details element to fit height */
 .faq-div>details {
     width: 100%;
     height: fit-content;
 }
 
+/* style summary element */
 .faq-div>details>summary {
     width: 100%;
     cursor: pointer;
@@ -434,99 +448,94 @@ main div {
 
 }
 
+/* style question paragraph */
 .faq-div>details p {
     text-align: center;
+    font-size: 20px;
     padding: 20px;
     color: var(--white-color);
 }
 
-.faq-left {
-    width: 34%;
-
-}
-
-.faq-middle {
-    width: 34%;
-
-}
-
-.faq-right {
-    width: 34%;
-
-}
 
 /* contact page */
 
+/* main container */
 .contact-main {
     width: 100%;
     height: 80%;
     margin: auto;
 }
 
+/* form and map container */
 .contact-sidebyside {
     display: flex;
     width: 99.8%;
     justify-content: space-around;
     margin: 20px 0 20px 0;
-
 }
 
+/* form takes half of main container */
 .contact-form {
     width: 45%;
     height: 80%;
 }
 
+/* style form fieldset */
 .contact-form fieldset {
     width: 100%;
     height: 750px;
     display: inline-block;
     border-radius: 5px;
-
 }
 
+/* style form title */
 .contact-form-title {
     text-align: center;
 }
 
+/* style the width of labels */
 form label {
     width: 30%;
     font-weight: bold;
 }
 
+/* style the width of inputs */
 form input {
     width: 70%;
     border-radius: 5px;
 }
 
+/* style form reason container */
 .contact-reason-container {
     flex-direction: column;
-    width: 80%;
+    width: 100%;
 }
 
+/* style form reason label  */
 .reason {
     width: 100%;
     border-radius: 5px;
     margin-top: 20px;
 }
 
-.reason select {
-    width: 70%;
-}
-
 form div {
     padding: 10px;
 }
 
-
-.text-area {
+/* text area container styling */
+.text-area-container {
     flex-direction: column;
     margin-top: 20px;
 }
 
+/* text area styling */
 textarea {
     border-radius: 5px;
+    color: var(--blue-color);
+    font-family: 'Ubuntu', sans-serif;
 }
 
+/* clear button styling */
 .reset {
     justify-content: center;
     width: 100%;
@@ -545,6 +554,7 @@ textarea {
     cursor: pointer;
 }
 
+/* submit button styling */
 .submit {
     justify-content: center;
     width: 100%;
@@ -564,13 +574,14 @@ textarea {
 
 }
 
-
+/* map takes half of main container */
 .contact-map {
     width: 45%;
     height: 80%;
 
 }
 
+/* style map fieldset */
 .contact-map fieldset {
     width: 100%;
     height: 750px;
@@ -578,7 +589,7 @@ textarea {
     border-radius: 5px;
 }
 
-
+/* map style from google maps */
 .mapouter {
     /* position: relative; */
     text-align: right;
@@ -593,7 +604,7 @@ textarea {
     width: 100%;
 }
 
-
+/* information container */
 .contact-info {
     display: flex;
     width: 95%;
@@ -601,32 +612,27 @@ textarea {
     margin: auto;
 }
 
+/* style information fieldset */
 .contact-info fieldset {
     width: 100%;
     height: 100%;
     border-radius: 5px;
 }
 
-/* .contact-info-container {
-    display: flex;
-    width: 100%;
-} */
-
+/* style address section to take half of information container */
 .contact-address {
     display: block;
     height: 50%;
     margin: auto auto auto 20px;
 }
 
+/* style anchors on information */
 .contact-address a {
     color: var(--blue-color);
     text-decoration: none;
 }
 
-.bold {
-    font-weight: 700;
-}
-
+/* style times section to take half of information container */
 .contact-times {
     display: block;
     width: 50%;
@@ -634,13 +640,14 @@ textarea {
     text-align: center;
 }
 
+/* style times table */
 .contact-times table {
     width: 90%;
     margin: auto 20px auto auto;
 
 }
 
-
+/* style time table content */
 .contact-times td,
 th {
     border: 1px solid black;
@@ -654,6 +661,7 @@ th {
 
 /* 404 page */
 
+/* background image */
 #page-not-found-image {
     background-image: url(../images/404-image.webp);
     background-position: top;
@@ -665,6 +673,7 @@ th {
     z-index: -99;
 }
 
+/* 404 message div */
 .page-not-found-image-div {
     position: relative;
     display: block;
@@ -677,21 +686,22 @@ th {
     border-radius: 5px;
 }
 
+/* 404 text */
 .page-not-found-image-div p,
 h1 {
     margin: 20px;
 }
 
+/* remove margin top from footer */
 #no-margin {
     margin-top: 0;
 }
 
+
 /* media Queries */
 
 /* media for tablets screens */
-
 @media (max-width:900px) {
-
 
     /* nav bar */
     .check-button {
@@ -732,10 +742,8 @@ h1 {
     }
 
     /* home page */
-
-
     .home-section-container {
-        /* flex-direction: column; */
+
         margin: 50px 5px;
         width: 98%;
     }
@@ -750,17 +758,14 @@ h1 {
     }
 
     /* about page */
-
     .about-text {
         padding: 5px;
     }
 
     /* gallery */
-
     .grid-container {
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto auto auto 400px;
-
 
         grid-template-areas:
             "grid-item-1 grid-item-2"
@@ -774,7 +779,6 @@ h1 {
     }
 
     /* faq */
-
     .faq-div {
         width: 95%;
     }
@@ -792,11 +796,8 @@ h1 {
     }
 
     /* contact */
-
-
     .contact-sidebyside {
         margin: 5px auto 5px auto;
-        /* justify-content: stretch; */
     }
 
     .contact-form {
@@ -832,20 +833,17 @@ h1 {
         padding: 0;
         width: 99%;
     }
-
 }
 
 /* Media for mobile phone screens */
 @media (max-width:570px) {
 
     /* nav bar */
-
     .check-button {
         margin: auto 5px auto auto;
     }
 
     /* footer */
-
     #social-icons i {
         margin-right: 10px;
         font-size: 20px;
@@ -861,10 +859,7 @@ h1 {
         line-height: 16px;
     }
 
-
-
     /* Home Page */
-
     .home-section-container {
         flex-direction: column;
         margin: 50px auto;
@@ -882,7 +877,6 @@ h1 {
     }
 
     /* about page */
-
     .about-content {
         flex-direction: column;
     }
@@ -894,11 +888,9 @@ h1 {
     }
 
     /* gallery */
-
     .grid-container {
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto auto auto auto 400px;
-
 
         grid-template-areas:
             "grid-item-1"
@@ -913,7 +905,6 @@ h1 {
     }
 
     /* faq */
-
     #hero-image-faq {
         background-size: cover;
         background-repeat: no-repeat;
@@ -932,21 +923,17 @@ h1 {
 
     .faq-left {
         width: 100%;
-
     }
 
     .faq-middle {
         width: 100%;
-
     }
 
     .faq-right {
         width: 100%;
-
     }
 
     /* contact */
-
     .contact-sidebyside {
         flex-direction: column;
     }
@@ -981,6 +968,4 @@ h1 {
         width: 100%;
         margin: auto auto 20px auto;
     }
-
-
 }
