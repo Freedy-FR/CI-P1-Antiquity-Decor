@@ -121,6 +121,9 @@ The website consist of five different pages:
 - A Frequently Asked Question - F.A.Q page with the most common questions and answers.
 - A Contact Us page with information about the store location, contact phones and a submission form.
 
+### Wireframes
+
+
 
 
 
