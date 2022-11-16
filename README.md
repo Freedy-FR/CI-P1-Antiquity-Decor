@@ -97,6 +97,21 @@ Developer: Freedy Ramos
 The projected website was designed to have a nostalgic vintage feel with the pictures being colorful.
 Some of the images are round or elipses with some white border like the old round mirrors.
 
+### Colour
+
+The colour scheme was chosen to be simple in variety but to contrast with the colorful pictures throughout the website. The colours were checked on webAIM contrast checker to fit accessibility needs.
+
+![Colour scheme](docs/color-palette-antiquity.webp)
+
+### Fonts
+
+The font for the logo is Caveat with a fallback to cursive to match the vintage handwriting style.
+<br>
+The font for the body is Ubuntu with a fallback to sans-serif.
+
+### Structure 
+
+
 
 
 
