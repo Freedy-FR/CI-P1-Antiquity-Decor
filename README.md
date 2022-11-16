@@ -29,6 +29,13 @@ Developer: Freedy Ramos
     2. [Welcome Section](#welcome-section)
     3. [Store Section](#store-section)
     4. [Footer](#footer)
+    5. [About Us](#about-us)
+    6. [The Products](#the-products)
+    7. [The Frequently Asked Question](#the-frequently-asked-question)
+    8. [Submission Form](#submission-form)
+    9. [Interactive Map](#interactive-map)
+    10. [Contact Info](#contact-info)
+    11. [Gallery](#gallery)
 
 
 
@@ -76,9 +83,9 @@ Developer: Freedy Ramos
 
 #### First Time Users
 
-1. As a first time user, i want to have an idea of the store environment.              -done
+1. As a first time user, i want to have an idea of the store environment.
 2. As a first time user, i want to know more about the artisan.
-3. As a first time user, i want to know the location of the store.
+3. As a first time user, i want to know the location of the store.            
 4. As a first time user, i want to know more about the services.
 5. As a first time user, i want to see a frequently asked questions about the store.
 6. As a first time user, i want to know more about the products.
@@ -86,18 +93,18 @@ Developer: Freedy Ramos
 #### Returning Users
 
 7. As a returning user, i want to find the phone number to contact the store.
-8. As a returning user, i want to see a short video of the work done at the shop.
+8. As a returning user, i want to see a short video of the store.
 9. As a returning user, i want to see more items being sold.
 10. As a returning user, i want to know the opening and closing times.
 11. As a returning user, i want to be able to make a complaint.
 12. As a returning user, i want to be able to get directions to the store.
-13. As a returning user, i want to check the social media news and pictures.                      -done
+13. As a returning user, i want to check the social media news and pictures.
 
 #### Site Owner
 
 14. As the site owner, i want the users to be able to get in contact.
-15. As the site owner, i want the users to have a easy to use mobile menu.                 -done
-16. As the site owner, i want the users to feel welcomed to the store.                     -done
+15. As the site owner, i want the users to have a easy to use mobile menu.
+16. As the site owner, i want the users to feel welcomed to the store.
 
 
 ## Design
@@ -178,29 +185,85 @@ Mockup
 - The navigation menu toggles to a bars menu (hamburger) on mobile and tablet-size screens.
 - User stories covered: 14.
 
-![logo and nav-bar](docs/)
-![logo and bars-menu](docs/)
+![logo and nav-bar](docs/features/nav-bar.webp)
+![logo and bars-menu](docs/features/bars-menu.webp)
 
 ### Welcome Section
 
 - Gives the user the welcome feeling at the home page of the website.
 - User stories covered: 15.
 
-![welcome section](docs/)
+![welcome section](docs/features/welcome.webp)
 
 ### Store Section
 
 - Gives the user the felling of the store enviroment. 
 - User stories covered: 1.
 
-![store section](docs/)
+![store section](docs//features/store.webp)
 
 ### Footer
 
 - The footer is responsive throughout all devices.
 - The footer is consistent throughout the website pages.
+- The footer consist of the social medias icons and links and the copyright message.
 - The footer is clean to focus on the social media icons and links.
 - User stories covered: 13.
+
+![footer](docs/features/footer.webp)
+
+### About Us
+
+- Describes The Artisan, The Atelier and Our Services.
+- User stories covered: 2,4.
+
+![about us](docs/features/about.webp)
+
+### The Products
+
+- Gives a brief description of the products.
+- User stories covered: 6.
+
+![the products](docs/features/products.webp)
+
+### The Frequently Asked Question
+
+- The Frequently Asked Questions -F.A.Q. section gives the customer a quick answer to the most common questions .
+- User stories covered: 5.
+
+![the F.A.Q](docs/features/faq.webp)
+
+### Submission Form
+
+- The Submission Form located at the Contact Us page allowing the users to submit messages and make complaints.
+- User stories covered: 11,14.
+
+![submission form](docs/features/form.webp)
+
+### Interactive Map
+
+- The interactive google map is located at the right side of the Contact Us page and lets the users see the directions to the store.
+- User stories covered: 3,12.
+
+![interactive map](docs/features/map.webp)
+
+### Contact Info
+
+- The Contact Info Section is located at the bottom part of the Contact Us page
+- Allows the user to see the address, phone and e-mails on the left side and opening times on the right side.
+- User stories covered: 7,10.
+
+![contact info](docs/features/contact-info.webp)
+
+### Gallery
+
+- The Gallery page allows the user to see some of the products images as well as a short video of the Atelier.
+- User stories covered: 8,9.
+
+![gallery-image](docs/features/gallery-image.webp)
+![gallery-video](docs/features/gallery-video.webp)
+
+
 
 
 
