@@ -17,10 +17,13 @@ Developer: Freedy Ramos
     3. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
-    2. [Colour](#colours)
+    2. [Colour](#colour)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-&-tools)
 
 
 
@@ -139,8 +142,23 @@ The website consist of five different pages:
 <img src="docs/wireframes/wireframe-contact.webp">
 </details>
 
+## Technologies Used
 
+### Languages
 
+- HTML
+- CSS
+
+### Frameworks & Tools
+
+- Git
+- GitHub
+- Gitpod
+- Cloudconvert.com
+- Balsamiq
+- Google Fonts
+- Font Awesome
+- Favicon.io
 
 
 
