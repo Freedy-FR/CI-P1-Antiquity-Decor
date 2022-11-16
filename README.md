@@ -70,14 +70,19 @@ Developer: Freedy Ramos
 
 #### Returning Users
 
-7. As a returning user,
-8. As a returning user, 
-9. As a returning user, 
+7. As a returning user, i want to find the phone number to contact the store.
+8. As a returning user, i want to see a short video of the work done at shop.
+9. As a returning user, i want to see more items being sold.
 10. As a returning user, i want to know the opening and closing times.
-11. As a returning user, 
-12. As a returning user, 
-13. As a returning user, 
-14. As a returning user, 
+11. As a returning user, i want to be able to make a complaint.
+
+#### Site owner
+
+12. As the site owner, i want the users to be able to 
+13. As the site owner, 
+14. As the site owner, 
+14. As the site owner, 
+14. As the site owner, 
 
 
 
