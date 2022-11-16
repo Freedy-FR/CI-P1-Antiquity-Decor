@@ -167,6 +167,10 @@ header {
     margin-top: 50px;
 }
 
+.display-off {
+    display: none;
+}
+
 /* bold class */
 .bold {
     font-weight: 700;

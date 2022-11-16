@@ -263,6 +263,14 @@ Mockup
 ![gallery-image](docs/features/gallery-image.webp)
 ![gallery-video](docs/features/gallery-video.webp)
 
+## Validation
+
+### HTML Validation
+
+
+<details><summary>Home</summary>
+<img src="docs/">
+
 
 
 
