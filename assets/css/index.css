@@ -733,10 +733,9 @@ th {
 
 /* 404 message div */
 .page-not-found-image-div {
-    position: relative;
     display: block;
-    margin: auto;
-    height: 200px;
+    margin: 20%;
+    height: fit-content;
     padding: 40px;
     text-align: center;
     background-color: var(--blue-color);
@@ -747,7 +746,7 @@ th {
 /* 404 text */
 .page-not-found-image-div p,
 h1 {
-    margin: 20px;
+    margin: auto;
 }
 
 /* remove margin top from footer */
