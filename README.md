@@ -15,6 +15,12 @@ Developer: Freedy Ramos
     1. [Main Audience](#main-audience)
     2. [User Requirements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colour](#colours)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
 
 
 
@@ -77,11 +83,19 @@ Developer: Freedy Ramos
 11. As a returning user, i want to be able to make a complaint.
 12. As a returning user, i want to be able to get directions to the store.
 
-#### Site owner
+#### Site Owner
 
 13. As the site owner, i want the users to be able to get in contact.
 14. As the site owner, i want the users to have a easy to use mobile menu.
 15. As the site owner, i want the users to feel welcomed to the store.
+
+
+## Design
+
+### Design Choices
+
+The projected website was designed to have a nostalgic vintage feel with the pictures being colorful.
+Some of the images are round or elipses with some white border like the old round mirrors.
 
 
 
