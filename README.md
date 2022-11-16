@@ -101,7 +101,7 @@ Some of the images are round or elipses with some white border like the old roun
 
 The colour scheme was chosen to be simple in variety but to contrast with the colorful pictures throughout the website. The colours were checked on webAIM contrast checker to fit accessibility needs.
 
-![Colour scheme](docs/color-palette-antiquity.webp)
+![Colour scheme](docs//features/color-palette-antiquity.webp)
 
 ### Fonts
 
@@ -109,7 +109,18 @@ The font for the logo is Caveat with a fallback to cursive to match the vintage 
 <br>
 The font for the body is Ubuntu with a fallback to sans-serif.
 
-### Structure 
+### Structure
+
+The page is structured in a clean, tidy and friendly way, like most of the big websites to make it easifor to the user to acclimatedated to the navigation.
+
+The website consist of five different pages:
+
+- A Homepage with an warming welcome message, a brief description of the store and products.
+- A About Us page with the description of the Artisan, The Atelier and our services.
+- A Gallery page with some products pictures and a brief video of work being done at the workshop.
+- A Frequently Asked Question - F.A.Q page with the most common questions and answers.
+- A Contact Us page with information about the store location, contact phones and a submission form.
+
 
 
 
