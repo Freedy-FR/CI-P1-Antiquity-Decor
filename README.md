@@ -12,9 +12,9 @@ Developer: Freedy Ramos
     1. [User Goals](#user-goals)
     2. [Owner Goals](#owner-goals)
 2. [User Experience](#user-experience)
-    1. [Main Audience](#)
-    2. [User Requirements and Expectations](#)
-    3. [User Stories](#)
+    1. [Main Audience](#main-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
 
 
 
@@ -56,6 +56,29 @@ Developer: Freedy Ramos
 - Multiple ways to contact the store.
 - A way to leave a message outside of business hours.
 - Clear accessibility for the impaired.
+
+### User Stories
+
+#### First Time Users
+
+1. As a first time user, i want to have an idea of the store environment.
+2. As a first time user, i want to know more about the artisan.
+3. As a first time user, i want to know the location of the store.
+4. As a first time user, i want to know more about the services.
+5. As a first time user, i want to see a frequently asked questions about the store.
+6. As a first time user, i want to know more about the products.
+
+#### Returning Users
+
+7. As a returning user,
+8. As a returning user, 
+9. As a returning user, 
+10. As a returning user, i want to know the opening and closing times.
+11. As a returning user, 
+12. As a returning user, 
+13. As a returning user, 
+14. As a returning user, 
+
 
 
 
