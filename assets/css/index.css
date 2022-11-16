@@ -313,7 +313,7 @@ form div {
     padding: 20px;
     height: 50%;
     min-height: 70vh;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .about-text>h2 {
