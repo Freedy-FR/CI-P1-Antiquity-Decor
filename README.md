@@ -71,18 +71,17 @@ Developer: Freedy Ramos
 #### Returning Users
 
 7. As a returning user, i want to find the phone number to contact the store.
-8. As a returning user, i want to see a short video of the work done at shop.
+8. As a returning user, i want to see a short video of the work done at the shop.
 9. As a returning user, i want to see more items being sold.
 10. As a returning user, i want to know the opening and closing times.
 11. As a returning user, i want to be able to make a complaint.
+12. As a returning user, i want to be able to get directions to the store.
 
 #### Site owner
 
-12. As the site owner, i want the users to be able to 
-13. As the site owner, 
-14. As the site owner, 
-14. As the site owner, 
-14. As the site owner, 
+13. As the site owner, i want the users to be able to get in contact.
+14. As the site owner, i want the users to have a easy to use mobile menu.
+15. As the site owner, i want the users to feel welcomed to the store.
 
 
 
