@@ -123,6 +123,22 @@ The website consist of five different pages:
 
 ### Wireframes
 
+<details><summary>Home</summary>
+<img src="docs/wireframes/wireframe-home.webp">
+</details>
+<details><summary>About</summary>
+<img src="docs/wireframes/wireframe-about.webp">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/wireframes/wireframe-gallery.webp">
+</details>
+<details><summary>F.A.Q.</summary>
+<img src="docs/wireframes/wireframe-faq.webp">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/wireframe-contact.webp">
+</details>
+
 
 
 
