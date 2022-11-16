@@ -24,6 +24,12 @@ Developer: Freedy Ramos
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
+5. [Features](#features)
+    1. [Logo and Navigation Bar](#logo-and-navigation-bar)
+    2. [Welcome Section](#welcome-section)
+    3. [Store Section](#store-section)
+    4. [Footer](#footer)
+
 
 
 
@@ -70,7 +76,7 @@ Developer: Freedy Ramos
 
 #### First Time Users
 
-1. As a first time user, i want to have an idea of the store environment.
+1. As a first time user, i want to have an idea of the store environment.              -done
 2. As a first time user, i want to know more about the artisan.
 3. As a first time user, i want to know the location of the store.
 4. As a first time user, i want to know more about the services.
@@ -85,12 +91,13 @@ Developer: Freedy Ramos
 10. As a returning user, i want to know the opening and closing times.
 11. As a returning user, i want to be able to make a complaint.
 12. As a returning user, i want to be able to get directions to the store.
+13. As a returning user, i want to check the social media news and pictures.                      -done
 
 #### Site Owner
 
-13. As the site owner, i want the users to be able to get in contact.
-14. As the site owner, i want the users to have a easy to use mobile menu.
-15. As the site owner, i want the users to feel welcomed to the store.
+14. As the site owner, i want the users to be able to get in contact.
+15. As the site owner, i want the users to have a easy to use mobile menu.                 -done
+16. As the site owner, i want the users to feel welcomed to the store.                     -done
 
 
 ## Design
@@ -159,6 +166,43 @@ The website consist of five different pages:
 - Google Fonts
 - Font Awesome
 - Favicon.io
+
+## Features
+
+Mockup
+
+### Logo and Navigation Bar
+
+- The navigation bar is responsive throughout all devices.
+- The navigation bar is consistent throughout the website pages.
+- The navigation menu toggles to a bars menu (hamburger) on mobile and tablet-size screens.
+- User stories covered: 14.
+
+![logo and nav-bar](docs/)
+![logo and bars-menu](docs/)
+
+### Welcome Section
+
+- Gives the user the welcome feeling at the home page of the website.
+- User stories covered: 15.
+
+![welcome section](docs/)
+
+### Store Section
+
+- Gives the user the felling of the store enviroment. 
+- User stories covered: 1.
+
+![store section](docs/)
+
+### Footer
+
+- The footer is responsive throughout all devices.
+- The footer is consistent throughout the website pages.
+- The footer is clean to focus on the social media icons and links.
+- User stories covered: 13.
+
+
 
 
 
