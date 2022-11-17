@@ -265,11 +265,11 @@ The page consists of five pages and eleven features.
 
 ## Validation
 
-The W3C Markup Validation Service was used to validate the HTML url of the 
- deployed website and the code by direct input.<br>
-All pages pass with no errors no warnings to show.
-
 ### HTML Validation
+
+The W3C Markup Validation Service was used to validate the HTML URL of the 
+ deployed website and the code by direct input.<br>
+All pages passed with no errors no warnings to show.
 
 <details><summary>Home</summary>
 <img src="docs/validation/home-url.webp">
@@ -295,6 +295,25 @@ All pages pass with no errors no warnings to show.
 <img src="docs/validation/contact-url.webp">
 <img src="docs/validation/contact-file.webp">
 </details>
+<br>
+
+### CSS Validation
+
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website URL and by direct input.
+All pages passed with no errors no warnings to show.
+
+<details><summary>Website URL</summary>
+<img src="docs/validation/css-url.webp">
+</details>
+
+<details><summary>Website by Direct Input</summary>
+<img src="docs/validation/css-file.webp">
+</details>
+
+
+
+
+
 
 
 
