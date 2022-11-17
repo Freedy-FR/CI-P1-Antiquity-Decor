@@ -88,7 +88,7 @@ body {
     color: var(--white-color);
 }
 
-/* bars menu style button (tablets and mobile)*/
+/* Code written based on Coding Nepal Tutorial (See readme file for credits) bars menu style button (tablets and mobile)*/
 .check-button {
     content: "";
     font-size: 40px;
@@ -776,6 +776,7 @@ h1 {
         margin-top: 60px;
     }
 
+    /* Code written based on Coding Nepal Tutorial (See readme file for credits) */
     #nav-bar ul {
         display: block;
         position: fixed;
@@ -794,6 +795,7 @@ h1 {
         margin: auto;
     }
 
+    /* Code written based on Coding Nepal Tutorial (See readme file for credits) */
     #check:checked~ul {
         left: 0;
     }
