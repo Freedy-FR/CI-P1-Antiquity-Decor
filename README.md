@@ -592,6 +592,28 @@ You can clone the repository by the following steps:
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 7. Press Enter to create your local clone.
 
+## Credits
+
+Images/Pictures not listed below are owned by the developer.
+
+### Media
+
+- [Home-Hero-Image](assets/images/home-workshop.webp) :Photo by <a href="https://www.pexels.com/@shkrabaanthony/">Antoni Shkraba</a> on <a href="https://www.pexels.com/photo/man-in-gray-and-black-stripe-crew-neck-t-shirt-standing-in-front-of-painting-6768483/">Pexels</a>.
+
+- [Home-Welcome-Image](assets/images/home-welcome.webp) :Photo by <a href="https://www.pexels.com/@ketut-subiyanto/">Ketut Subiyanto</a> on <a href="https://www.pexels.com/photo/wooden-welcome-signage-4473400/">Pexels</a>.
+
+- [Home-Store-Image](assets/images/home-store-front.webp) :Photo by <a href="https://www.pexels.com/@suzyhazelwood/">Suzy Hazelwood</a> on <a href="https://www.pexels.com/photo/store-with-different-goods-on-display-2309235/">Pexels</a>.
+
+- [About-Artisan-Image](assets/images/about-artisan.webp) :Photo by <a href="https://www.pexels.com/@shkrabaanthony/">Antoni Shkraba</a> on <a href="https://www.pexels.com/photo/photo-of-woman-looking-at-her-works-4348187/">Pexels</a>.
+
+- [About-Atelier-Image](assets/images/about-atelier.webp) :Photo by <a href="https://www.pexels.com/@yaroslav-shuraev/">Yaroslav Shuraev</a> on <a href="https://www.pexels.com/photo/a-person-painting-on-the-oval-canvas-4362064/">Pexels</a>.
+
+- [About-Services-Image](assets/images/about-services.webp) :Photo by <a href="https://www.pexels.com/@shkrabaanthony/">Antoni Shkraba</a> on <a href="https://www.pexels.com/photo/photo-of-woman-sitting-by-the-table-while-writing-4348078/">Pexels</a>.
+
+- [Gallery-Video](assets/images/gallery-video.mp4) :Video by <a href="https://www.pexels.com/@taryn-elliott/">Taryn Elliott</a> on <a href="https://www.pexels.com/video/colorful-painting-6214338/">Pexels</a>.
+
+- [F.A.Q.-Hero-Image](assets/images/faq-questions-14.webp) :Photo by <a href="https://www.pexels.com/@ann-h-45017/">Ann H</a> on <a href="https://www.pexels.com/photo/yellow-letter-tiles-on-blue-background-1887995/">Pexels</a>.
+
 
 
 
