@@ -36,6 +36,18 @@ Developer: Freedy Ramos
     9. [Interactive Map](#interactive-map)
     10. [Contact Info](#contact-info)
     11. [Gallery](#gallery)
+6. [Testing](#validation)
+    1. [HTML Validation](#html-validation)
+    2. [CSS Validation](#css-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatibility)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
 
 
@@ -375,6 +387,12 @@ The website was tested on the following devices.
 
 The website was tested with Google Chrome Developer Tools throughout the available screen sizes.
 
+### Browser compatibility
+The website was tested on the following browsers:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Egde
+
 ### Testing User Stories
 
 1. As a first time user, i want to have an idea of the store environment.
@@ -624,9 +642,9 @@ Images/Pictures not listed below are owned by the developer.
 
 ## Acknowledgements
 
-- My Wife Marcielly Nanci for the support and ideias and motivation.
+- My Wife Marcielly Nanci for the support, ideias and motivation.
 - My Mentor Victor Miclovich for the guidance, patience and motivation.
-- To Code Institute support and attention.
+- To Code Institute for the support and attention.
 
 
 
