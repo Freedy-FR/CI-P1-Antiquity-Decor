@@ -176,7 +176,7 @@ The website consist of five different pages:
 
 ## Features
 
-Mockup
+The page consists of five pages and eleven features.
 
 ### Logo and Navigation Bar
 
@@ -265,13 +265,36 @@ Mockup
 
 ## Validation
 
+The W3C Markup Validation Service was used to validate the HTML url of the 
+ deployed website and the code by direct input.<br>
+All pages pass with no errors no warnings to show.
+
 ### HTML Validation
 
-
 <details><summary>Home</summary>
-<img src="docs/">
+<img src="docs/validation/home-url.webp">
+<img src="docs/validation/home-file.webp">
+</details>
 
+<details><summary>About</summary>
+<img src="docs/validation/about-url.webp">
+<img src="docs/validation/about-file.webp">
+</details>
 
+<details><summary>Gallery</summary>
+<img src="docs/validation/gallery-url.webp">
+<img src="docs/validation/gallery-file.webp">
+</details>
+
+<details><summary>F.A.Q.</summary>
+<img src="docs/validation/faq-url.webp">
+<img src="docs/validation/faq-file.webp">
+</details>
+
+<details><summary>Contact</summary>
+<img src="docs/validation/contact-url.webp">
+<img src="docs/validation/contact-file.webp">
+</details>
 
 
 
