@@ -258,7 +258,7 @@ The page consists of five pages and eleven features.
 ### Gallery
 
 - The Gallery page allows the user to see some of the products images as well as a short video of the Atelier.
-- User stories covered: 8,9.
+- User stories covered: 6,8,9.
 
 ![gallery-image](docs/features/gallery-image.webp)
 ![gallery-video](docs/features/gallery-video.webp)
@@ -365,7 +365,7 @@ Google Lighthouse on Google Chrome Developer Tools was used to test the performa
 </details>
 <br>
 
-### Performing tests on various devices 
+### Performing Tests on Various Devices 
 
 The website was tested on the following devices.
 
@@ -374,6 +374,81 @@ The website was tested on the following devices.
 - Surface Pro 8 (Tablet and Desktop mode)
 
 The website was tested with Google Chrome Developer Tools throughout the available screen sizes.
+
+### Testing User Stories
+
+1. As a first time user, i want to have an idea of the store environment.
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Store Section | On the homepage go down to the Store Section | Find the description of the store enviroment | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-1-scroll.webp">
+<img src="docs/user-stories/user-1-store.webp">
+</details>
+<br>
+
+2. As a first time user, i want to know more about the artisan.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Navigate to the About Us page | Find the description of The Artisan on the left side of the page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-2.webp">
+</details>
+<br>
+
+3. As a first time user, i want to know the location of the store.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Interactive Map | Navigate to the Contact page | Find the Interactive Map on the right side of the page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-3.webp">
+</details>
+<br>
+
+4. As a first time user, i want to know more about the services.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Navigate to the About Us page| Find the description of Our Services on the right side of the page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-4.webp">
+</details>
+<br>
+
+5. As a first time user, i want to see a frequently asked questions about the store.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| The Frequently Asked Question | Navigate to the F.A.Q page | Find the questions and answer section | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-5.webp">
+</details>
+<br>
+
+6. As a first time user, i want to know more about the products.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| The Products | On the homepage go down to the Products Section | Find the description of the Products | Works as expected |
+| Gallery | Navigate to the Gallery page | Find pictures of products | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-6-scroll.webp">
+<img src="docs/user-stories/user-6-product.webp">
+<img src="docs/user-stories/user-6-gallery.webp">
+</details>
+<br>
+
+
 
 
 
