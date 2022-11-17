@@ -341,6 +341,31 @@ All pages passed with no errors.
 </details>
 <br>
 
+### Performance
+
+Google Lighthouse on Google Chrome Developer Tools was used to test the performance throughout the website.
+
+<details><summary>Home</summary>
+<img src="docs/validation/performance-home.webp">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/performance-about.webp">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/performance-gallery.webp">
+</details>
+<details><summary>F.A.Q.</summary>
+<img src="docs/validation/performance-faq.webp">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/performance-contact.webp">
+</details>
+<details><summary>404 page</summary>
+<img src="docs/validation/performance-page-not-found.webp">
+</details>
+<br>
+
+
 
 
 
