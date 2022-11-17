@@ -614,6 +614,20 @@ Images/Pictures not listed below are owned by the developer.
 
 - [F.A.Q.-Hero-Image](assets/images/faq-questions-14.webp) :Photo by <a href="https://www.pexels.com/@ann-h-45017/">Ann H</a> on <a href="https://www.pexels.com/photo/yellow-letter-tiles-on-blue-background-1887995/">Pexels</a>.
 
+### Code
+
+- Mobile Navigation Bars Menu (Hamburger menu) taken from <a href="https://www.youtube.com/watch?v=oLgtucwjVII&t=414s&ab_channel=CodingNepal">Coding Nepal Tutorial</a>.
+
+- Documentation (README.md) standard structure skeleton taken from former Code Institute student <a href="https://github.com/4n4ru">Ana</a> from the project <a href="https://github.com/4n4ru/CI_MS1_BodelschwingherHof/blob/master/README.md">PP-1</a>.
+
+- 404 Page not found was build using description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
+
+## Acknowledgements
+
+- My Wife Marcielly Nanci for the support and ideias and motivation.
+- My Mentor Victor Miclovich for the guidance, patience and motivation.
+- To Code Institute support and attention.
+
 
 
 
