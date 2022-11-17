@@ -183,7 +183,7 @@ The page consists of five pages and eleven features.
 - The navigation bar is responsive throughout all devices.
 - The navigation bar is consistent throughout the website pages.
 - The navigation menu toggles to a bars menu (hamburger) on mobile and tablet-size screens.
-- User stories covered: 14.
+- User stories covered: 15.
 
 ![logo and nav-bar](docs/features/nav-bar.webp)
 ![logo and bars-menu](docs/features/bars-menu.webp)
@@ -191,7 +191,7 @@ The page consists of five pages and eleven features.
 ### Welcome Section
 
 - Gives the user the welcome feeling at the home page of the website.
-- User stories covered: 15.
+- User stories covered: 16.
 
 ![welcome section](docs/features/welcome.webp)
 
@@ -533,16 +533,35 @@ The website was tested with Google Chrome Developer Tools throughout the availab
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Submission Form | Navigate to the Contact page | Find the Submission form at the left of the page | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/user-stories/user-14-form.webp">
 </details>
 <br>
 
 15. As the site owner, i want the users to have a easy to use mobile menu.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Logo and Navigation Bar | On mobile or tablet click on the bar menu(hamburger) | Navigate trough the website | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-15-arrow.webp">
+<img src="docs/user-stories/user-15-menu.webp">
+</details>
+<br>
+
 16. As the site owner, i want the users to feel welcomed to the store.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Welcome Section | On the homepage go down to the Welcome Section | Find the Welcome section | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-16-welcome.webp">
+</details>
+<br>
 
 
 
