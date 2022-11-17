@@ -448,6 +448,101 @@ The website was tested with Google Chrome Developer Tools throughout the availab
 </details>
 <br>
 
+7. As a returning user, i want to find the phone number to contact the store.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Info | Navigate to the Contact page | Find the Contact Info on the bottom of the page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-7-scroll.webp">
+<img src="docs/user-stories/user-7-contact.webp">
+</details>
+<br>
+
+8. As a returning user, i want to see a short video of the store.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Gallery | Navigate to the Gallery page | Find the video at the bottom at the page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-8-scroll.webp">
+<img src="docs/user-stories/user-8-video.webp">
+</details>
+<br>
+
+9. As a returning user, i want to see more items being sold.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Gallery | Navigate to the Gallery page | Find the pictures of the products | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-9-gallery.webp">
+</details>
+<br>
+
+10. As a returning user, i want to know the opening and closing times.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Info | Navigate to the Contact page | Find the Opening Times on the bottom of the page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-10-scroll.webp">
+<img src="docs/user-stories/user-10-times.webp">
+</details>
+<br>
+
+11. As a returning user, i want to be able to make a complaint.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Submission Form | Navigate to the Contact page | Find the Submission form at the left of the page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-11-form.webp">
+</details>
+<br>
+
+12. As a returning user, i want to be able to get directions to the store.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Interactive Map | Navigate to the Contact page | Find the Interactive Map on the right side of the page and click directions | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-12-directions.webp">
+</details>
+<br>
+
+13. As a returning user, i want to check the social media news and pictures.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Scroll to the bottom of any page | Find the Social icons at the footer | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories/user-13-scroll.webp">
+<img src="docs/user-stories/user-13-social.webp">
+</details>
+<br>
+
+14. As the site owner, i want the users to be able to get in contact.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+<br>
+
+15. As the site owner, i want the users to have a easy to use mobile menu.
+16. As the site owner, i want the users to feel welcomed to the store.
 
 
 
