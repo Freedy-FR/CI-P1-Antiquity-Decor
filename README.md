@@ -295,6 +295,11 @@ All pages passed with no errors no warnings to show.
 <img src="docs/validation/contact-url.webp">
 <img src="docs/validation/contact-file.webp">
 </details>
+
+<details><summary>404 page</summary>
+<img src="docs/validation/page-not-found-url.webp">
+<img src="docs/validation/page-not-found-file.webp">
+</details>
 <br>
 
 ### CSS Validation
@@ -309,6 +314,35 @@ All pages passed with no errors no warnings to show.
 <details><summary>Website by Direct Input</summary>
 <img src="docs/validation/css-file.webp">
 </details>
+<br>
+
+### Accessibility
+
+The WAVE WebAIM web accessibility tool was used to ensure the website met high accessibility standards.<br>
+All pages passed with no errors.
+
+<details><summary>Home</summary>
+<img src="docs/validation/wave-home.webp">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/wave-about.webp">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/wave-gallery.webp">
+</details>
+<details><summary>F.A.Q.</summary>
+<img src="docs/validation/wave-faq.webp">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/wave-contact.webp">
+</details>
+<details><summary>404 page</summary>
+<img src="docs/validation/wave-page-not-found.webp">
+</details>
+<br>
+
+
+
 
 
 
